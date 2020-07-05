@@ -19,6 +19,7 @@ xbindkeys
 ```
 
 ## key number
+```
 1 - left button 
 2 - middle button 
 3 - right button 
@@ -29,3 +30,4 @@ xbindkeys
 10 - Fn1 
 11 - Fn2 
 12 - Fn3 
+```
