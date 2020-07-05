@@ -1,0 +1,20 @@
+#fn1 : add sound
+"amixer -D pulse set Master 3%+ unmute"
+   b:10
+
+#fn2 : turn down the sound
+"amixer -D pulse set Master 3%- unmute"
+   b:11
+
+#fn3 : click the middle mouse button
+"xte 'mouseclick 2'"
+   b:12 + Release
+   
+# EXAMPLE
+#fn1
+"xdotool key --clearmodifiers 'ctrl+v'"
+   b:10
+
+#fn2
+"xdotool key --clearmodifiers 'ctrl+c'"
+   b:11
